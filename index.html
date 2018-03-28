@@ -1,0 +1,45 @@
+from flask import Flask
+
+app = Flask(__name__)
+app.config['DEBUG'] = True
+
+@app.route("/")
+def index():
+    return "html-me-something"
+
+app.run()
+
+<!DOCUMENT html>
+<html>
+    <Header>
+    <head>
+        <link type="text/css" rel="style" href="style.css"/>
+        <article>
+            <h1>Google Chrome</h1>    
+            <h2>Mozilla Firefox </h2>
+        </article>
+    
+        <title> HTML-ME-Something Assignment
+        </title>
+    </head>
+    </Header>
+    
+    <main>
+          
+            <p>CHELBY JENKINS</p> 
+    <body> 
+        <p> In my life I've held several jobs. For the most part each of those jobs were a part of the customer service indusry. My very first job was a sales associate position in the toys department at a Walmart. Since then I followed that pattern into working similar positions. </p>
+
+        <p> I've since have worked as a cashier, a stock associate, a caregiver, a warehouse worker, and as a call center representative. </p>
+        
+        <p> In addition, I also went to a University to get my Bachelors in Video Production and worked various intern positions. Now I am interested in learning how to develop websites/web apps that are inclusive of mp4 video's. So to learn about coding I decided to go to Launchcode! </p>
+        
+        <p> So by now you're probably wondering how old I am to have worked all these jobs and still be in school? But I'll never tell! </p>
+    </body>
+    <footer>
+        <img src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/28378181_10200273364578910_3706507387323540207_n.jpg?_nc_cat=0&oh=74a45a02a70daad25ac8c804af41ade2&oe=5B41D8A4" />     
+         &copy;
+    </footer>
+    
+    </main>
+</html>
