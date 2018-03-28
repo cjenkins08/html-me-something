@@ -3,7 +3,7 @@ body{
 }
 
 p.center {
-    center: large;
+    text-align: center;
 
 } 
 
